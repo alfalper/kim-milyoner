@@ -1,0 +1,53 @@
+
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1.4em;
+  }
+  .wrapper
+  {
+    width:20rem;
+    padding:2rem;
+    border-radius:var(--radius);
+    margin:2rem auto;
+    padding-top:8%;
+
+  }
+  body{
+
+      background-image:url("genis.png");
+      background-size: absolute;
+      background-position:cover;
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 2.1em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wrapper
+  {
+    background-color: ;
+    width:18rem;
+    border-radius:var(--radius);
+    margin:6rem auto;
+    padding-top:13%;
+
+
+  }
+  body{
+
+        background-image:url("arkaplan.png");
+        background-size: contain;
+        background-position:cover;
+
+    }
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #eee;
+
+}
